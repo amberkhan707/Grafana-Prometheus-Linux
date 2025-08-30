@@ -1,0 +1,151 @@
+
+process_names:
+
+   - comm:
+     - bash
+     - mysqld
+     - chrome
+     - firefox
+     - redis-server
+
+   - comm:
+     - java
+     cmdline:
+     - "ppclogviewserver.jar"
+     name: ppclogviewserver
+   - comm:
+     - java
+     cmdline:
+     - "ppcalarmsservice.jar"
+     name: ppcalarmsservice
+   - comm:
+     - java
+     cmdline:
+     - "api-gateway.jar"
+     name: api-gateway
+   - comm:
+     - java
+     cmdline:
+     - "ppcalertgenerator.jar"
+     name: ppcalertgenerator
+   - comm:
+     - java
+     cmdline:
+     - "api-service-registry.jar"
+     name: api-service-registry
+   - comm:
+     - java
+     cmdline:
+     - "ppcassetdataservice.jar"
+     name: ppcassetdataservice
+   - comm:
+     - java
+     cmdline:
+     - "archiveprocess.jar"
+     name: archiveprocess
+   - comm:
+     - java
+     cmdline:
+     - "ppcassetmanagementservice.jar"
+     name: ppcassetmanagementservice
+   - comm:
+     - java
+     cmdline:
+     - "compliancedataprocessor.jar"
+     name: compliancedataprocessor
+   - comm:
+     - java
+     cmdline:
+     - "ppcmodbusservice.jar"
+     name: ppcmodbusservice
+   - comm:
+     - java
+     cmdline:
+     - "ppcservice.jar"
+     name: ppcservice
+   - comm:
+     - java
+     cmdline:
+     - "ppcusermanagementserver.jar"
+     name: ppcusermanagementserver
+   - comm:
+     - java
+     cmdline:
+     - "discretedataprocessor.jar"
+     name: discretedataprocessor
+   - comm:
+     - java
+     cmdline:
+     - "encrypt-decrypt.jar"
+     name: encrypt-decrypt
+   - comm:
+     - java
+     cmdline:
+     - "reportconfiguration.jar"
+     name: reportconfiguration
+   - comm:
+     - java
+     cmdline:
+     - "historycatchup.jar"
+     name: historycatchup
+   - comm:
+     - java
+     cmdline:
+     - "reportgenerator.jar"
+     name: reportgenerator
+   - comm:
+     - java
+     cmdline:
+     - "iec104-adapter.jar"
+     name: iec104-adapter
+   - comm:
+     - java
+     cmdline:
+     - "iec61850-adapter.jar"
+     name: iec61850-adapter
+   - comm:
+     - java
+     cmdline:
+     - "iec61850-adapter-service.jar"
+     name: iec61850-adapter-service
+   - comm:
+     - java
+     cmdline:
+     - "latestdataprocessor.jar"
+     name: latestdataprocessor
+   - comm:
+     - java
+     cmdline:
+     - "master-feature.jar"
+     name: master-feature
+   - comm:
+     - java
+     cmdline:
+     - "tomcat"
+     name: tomcat
+   - comm:
+     - python3
+     cmdline:
+     - "./healthmonitor.py"
+     name: healthmonitor
+   - comm:
+     - python3
+     cmdline:
+     - "./SCADA-SendPQSetpoint.py"
+     name: SCADA-SendPQSetpoint
+   - comm:
+     - python3
+     cmdline:
+     - "./setting-reader.py"
+     name: settingreader
+   - comm:
+     - python3
+     cmdline:
+     - "./modbusserver.py"
+     name: modbusserver
+   - comm:
+     - python3
+     cmdline:
+     - "./modbusslave.py"
+     name: modbusslave
+
