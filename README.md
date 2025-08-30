@@ -1,4 +1,28 @@
-# Grafana & Prometheus Installation in Linux
+# Linux Monitoring Dashboard with Grafana, Prometheus, Node Exporter & Process Exporter
+
+Monitor multiple Linux VMs in real-time with **Grafana**, **Prometheus**, **Node Exporter**, and **Process Exporter**.  
+This setup lets you visualize **system metrics, processes, and performance** in a centralized **Grafana Dashboard** from one base machine.
+
+> 📊 Perfect for **Linux server monitoring**, **DevOps**, **multi-VM tracking**, and **infrastructure health visualization**.
+
+---
+
+## 🚀 Features
+- 📍 **Multi-VM Support** – Monitor multiple Linux VMs from one base machine.
+- 📈 **Grafana Dashboards** – Ready-to-use **Node Exporter** & **Process Exporter** dashboards.
+- 
+---
+
+## 📂 Files Required
+Download all required installation files from **[Current Repository](#)**.  
+Files include:
+- Grafana `.deb` package
+- Prometheus binaries
+- Node Exporter & Process Exporter setup scripts
+- Pre-configured `.service` files
+- Pre-built Grafana dashboards
+
+---
 
 ## Base Machine (Where you want to visualize):
 
