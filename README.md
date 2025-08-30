@@ -27,7 +27,7 @@ Files include:
 ## 🖥️ Installation Guide
 
 ### 1️⃣ Install Grafana on Base Machine
-```bash
+
 sudo apt-get install -y adduser libfontconfig1 musl
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_12.0.2_amd64.deb
 sudo dpkg -i grafana-enterprise_12.0.2_amd64.deb
@@ -38,6 +38,7 @@ sudo /bin/systemctl start grafana-server
 # Access Grafana UI:
 http://localhost:3000/login
 
+---
 ### 2️⃣ **Install Prometheus on Base Machine
 sudo useradd --no-create-home --shell /bin/false prometheus
 sudo mkdir /etc/prometheus
@@ -63,3 +64,4 @@ sudo systemctl status prometheus
 Access Prometheus UI:
 http://localhost:9090
 
+```bash
