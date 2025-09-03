@@ -1,3 +1,9 @@
+<img width="856" height="386" alt="image001" src="https://github.com/user-attachments/assets/4ea0faf5-c670-40ea-8008-74a256eee3aa" />
+<img width="1716" height="775" alt="image002" src="https://github.com/user-attachments/assets/691fb353-fec4-4aae-8742-2256319efb4f" />
+<img width="1713" height="735" alt="image003" src="https://github.com/user-attachments/assets/f8e17a80-770a-4ef2-8afa-291c4487219b" />
+<img width="1730" height="715" alt="image004" src="https://github.com/user-attachments/assets/54d892fc-d503-41f5-9b2e-61fada6d4cde" />
+
+
 # Linux Monitoring Dashboard with Grafana, Prometheus, Node Exporter & Process Exporter
 
 Monitor multiple Linux VMs in real-time with **Grafana**, **Prometheus**, **Node Exporter**, and **Process Exporter**.  
